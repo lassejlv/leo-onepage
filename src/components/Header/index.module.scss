@@ -1,0 +1,42 @@
+@import '../../styles/index.scss';
+
+.header {
+  background-image: url(/headerImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+
+  .title {
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+
+  .bottomCard {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    p {
+      color: #888;
+      font-size: 0.9rem;
+    }
+  }
+
+  .logo {
+    color: $blue;
+  }
+}
